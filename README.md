@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Configure Environment variable
+
+Create a .env file in the root directory. 
+
+```
+PORT = PORT_NUMBER
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
