@@ -1,8 +1,10 @@
-:root{
-  --primary-color : #37728b ; 
-  --font-family : 'Lexend' , sans-serif ; 
-}
+:root {
+  --primary-color: #37728b;
+  --font-family: "Lexend", sans-serif;
+  --accent-font-family: "Carattere", cursive, serif;
+  --display-font-family: 'Lexend', sans-serif;
 
+}
 
 body {
   margin: 0;

@@ -1,0 +1,8 @@
+.Header{
+    display: flex;
+    background: var(--primary-color) ;
+    align-items: center;
+    font-family: var(--accent-font-family);
+    color: whitesmoke;
+    padding:  0 15px;
+}

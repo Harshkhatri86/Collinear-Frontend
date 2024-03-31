@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header/Header';
+import Input from './components/Input/Input';
+import Button from './components/Button/Button';
 
 function App() {
   return (
-   <>
-    <h1>Application is running on PORT 7000</h1>
-   </>
+   <div className='App' data-testid = "App-Id">
+    <Header/>
+    <Input/>
+    <Button label="test"/>
+   </div>
   );
 }
 

@@ -1,0 +1,28 @@
+.button {
+    text-transform: none;
+    border-radius: 2px;
+    box-shadow: none;
+    font-family: 'Lexend', sans-serif;
+    width: 30%;
+  }
+  
+  /* .button.outlined {
+    border: 2px solid;
+  } */
+
+  .button.primary {
+    background-color: var(--primary-color);
+    font-family: var(--display-font-family);
+  }
+/*   
+  .button.secondary {
+    background-color: lightblue;
+    color: black;
+  }
+   */
+ 
+  .button:disabled {
+    opacity: 0.5; /* Example: Reduce opacity for disabled state */
+    cursor: not-allowed; /* Example: Change cursor for disabled state */
+  }
+  
